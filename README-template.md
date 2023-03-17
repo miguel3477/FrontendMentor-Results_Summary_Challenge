@@ -28,7 +28,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://miguel3477.github.io/FrontendMentor-Results_Summary_Challenge/](https://miguel3477.github.io/FrontendMentor-Results_Summary_Challenge/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -38,12 +37,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 

@@ -109,7 +109,6 @@ svg {
     width: 90%;
 }
 
-
 /*Summary*/
 
 .result-summary .summary{
@@ -124,6 +123,7 @@ svg {
 .result-summary .summary .title{
     text-align: start;
     font-weight: 700;
+    color: #303b59;
 }
 
 .result-summary .summary .summary-blocks{
@@ -154,6 +154,35 @@ svg {
     font-size: 12px;
     padding: 4px;
     font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+.result-summary .summary .continue > span{
+    z-index: 1;
+}
+
+.result-summary .summary .continue:hover {
+    cursor: pointer;
+}
+
+.result-summary .summary .continue::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+        var(--background-gradient-start),
+        var(--background-gradient-end));
+    opacity: 0%;
+    transition: opacity .3s;
+}
+
+.result-summary .summary .continue:hover::before{
+    opacity: 100%;
+    transition: opacity .5s;
 }
 
 .result-summary .summary .summary-blocks .reaction {
@@ -174,6 +203,7 @@ svg {
 
 .summary-number > span:first-of-type {
     font-weight: bold;
+    color: #303b59;
 }
 
 .summary-number > span:last-of-type {
